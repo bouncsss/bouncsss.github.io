@@ -1,0 +1,29 @@
+{
+  "contact.qmd": {
+    "contact.html": "373f3f91"
+  },
+  "events.qmd": {
+    "events.html": "d0635c3a"
+  },
+  "projects.qmd": {
+    "projects.html": "d1d129b2"
+  },
+  "index.qmd": {
+    "index.html": "234077f0"
+  },
+  "about.qmd": {
+    "about.html": "6545ec17"
+  },
+  "people.qmd": {
+    "people.html": "e55a75fc"
+  },
+  "events/2026-09-workshop-ergm.qmd": {
+    "2026-09-workshop-ergm.html": "b7200aaf"
+  },
+  "events/2026-10-reading-generative-agents.qmd": {
+    "2026-10-reading-generative-agents.html": "2b51a7ee"
+  },
+  "resources.qmd": {
+    "resources.html": "cf20d410"
+  }
+}

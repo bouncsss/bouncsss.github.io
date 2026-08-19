@@ -1,0 +1,43 @@
+---
+title: ""
+pagetitle: "Contact — BOUN CSS"
+---
+
+::: {.page-band}
+::: {.band-inner}
+::: {.band-eyebrow}
+Get in touch
+:::
+# Contact
+:::
+:::
+
+::: {.prose}
+
+## Joining the mailing list
+
+Write to us and we will add you. The list carries meeting times, readings, and
+announcements — a few messages a month, nothing else.
+
+[bouncss@example.com](mailto:bouncss@example.com)
+
+## Where we meet
+
+Department of Political Science and International Relations\
+Boğaziçi University\
+Bebek, 34342 Istanbul
+
+Meeting room and time are announced on the mailing list each term.
+
+## Elsewhere
+
+- [GitHub](https://github.com/ORGANIZATION) — code from workshops and projects
+- [Bluesky](https://bsky.app/)
+- [LinkedIn](https://linkedin.com/)
+
+## For faculty and visitors
+
+If you would like to give a talk or run a session with us, write to
+[Assoc. Prof. Başak Taraktaş](https://basaktaraktas.com) or to the address above.
+
+:::

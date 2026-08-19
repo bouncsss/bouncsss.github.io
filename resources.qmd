@@ -1,0 +1,67 @@
+---
+title: ""
+pagetitle: "Resources — BOUN CSS"
+---
+
+::: {.page-band}
+::: {.band-inner}
+::: {.band-eyebrow}
+Reading, tools, and data
+:::
+# Resources
+:::
+:::
+
+::: {.prose}
+A working list, maintained by members. If something here is out of date or you think a
+resource belongs on it, mention it at a session.
+:::
+
+::: {.resource-group}
+::: {.eyebrow}
+Starting points
+:::
+
+## Where to begin
+
+- [Bit by Bit — Matthew Salganik](https://www.bitbybitbook.com/) <span class="res-note">— the standard introduction to social research in the digital age, free to read online.</span>
+- [Summer Institutes in Computational Social Science](https://sicss.io/) <span class="res-note">— materials and recorded lectures from SICSS, openly available.</span>
+- [Text as Data — Grimmer, Roberts & Stewart](https://press.princeton.edu/books/paperback/9780691207551/text-as-data) <span class="res-note">— the reference for text-as-data methods in the social sciences.</span>
+:::
+
+::: {.resource-group}
+::: {.eyebrow}
+Methods
+:::
+
+## Methods and tutorials
+
+- [statnet](https://statnet.org/) <span class="res-note">— R packages for network analysis and ERGMs, with tutorials.</span>
+- [NetLogo](https://ccl.northwestern.edu/netlogo/) <span class="res-note">— agent-based modeling environment; the models library alone is worth reading.</span>
+- [The Effect — Nick Huntington-Klein](https://theeffectbook.net/) <span class="res-note">— causal inference, free online.</span>
+- [Hugging Face](https://huggingface.co/) <span class="res-note">— pretrained models, including Turkish-language ones such as BERTurk.</span>
+:::
+
+::: {.resource-group}
+::: {.eyebrow}
+Data
+:::
+
+## Data sources
+
+- [V-Dem](https://v-dem.net/) <span class="res-note">— comparative measures of democracy, 1789 to present.</span>
+- [Correlates of War](https://correlatesofwar.org/) <span class="res-note">— interstate conflict, alliances, trade, and national capabilities.</span>
+- [TÜİK](https://www.tuik.gov.tr/) <span class="res-note">— Turkish Statistical Institute; national statistics and microdata.</span>
+- [İBB Açık Veri Portalı](https://data.ibb.gov.tr/) <span class="res-note">— Istanbul Metropolitan Municipality open data.</span>
+:::
+
+::: {.resource-group}
+::: {.eyebrow}
+At Boğaziçi
+:::
+
+## Around the university
+
+- [Department of Political Science and International Relations](https://polsci.bogazici.edu.tr/)
+- [Boğaziçi University Library](https://library.bogazici.edu.tr/) <span class="res-note">— database access, including subscription journals and statistical software licences.</span>
+:::

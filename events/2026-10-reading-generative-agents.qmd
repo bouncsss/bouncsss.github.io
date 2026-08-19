@@ -1,0 +1,14 @@
+---
+title: "Reading group: generative agent-based models"
+description: "Discussing recent work that replaces fixed decision rules in ABMs with language model agents, and what it costs in interpretability."
+date: 2026-10-08
+categories: [reading group, agent-based modeling]
+---
+
+Bu oturumda ajan tabanlı modellerde sabit karar kurallarının yerine dil modeli
+ajanlarının kullanıldığı yeni literatürü tartışacağız.
+
+Tartışmak istediğimiz soru: bu yaklaşım gerçekten daha "gerçekçi" ajanlar mı üretiyor,
+yoksa yorumlanabilirliği kaybederek görünürde bir zenginlik mi kazandırıyor?
+
+Okuma listesi oturumdan bir hafta önce mailing list üzerinden paylaşılacak.

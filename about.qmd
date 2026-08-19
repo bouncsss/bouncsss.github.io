@@ -1,0 +1,57 @@
+---
+title: ""
+pagetitle: "About — BOUN CSSS"
+---
+
+::: {.page-band}
+::: {.band-inner}
+::: {.band-eyebrow}
+Boğaziçi University Computational Social Science Society
+:::
+# About the society
+:::
+:::
+
+::: {.prose}
+
+The Computational Social Science Society is a research and learning community at
+Boğaziçi University, led by [Assoc. Prof. Başak Taraktaş](https://basaktaraktas.com)
+in the Department of Political Science and International Relations. It brings together
+undergraduate and graduate students, alongside faculty, who work on social questions
+using computational methods.
+
+## What the society is for
+
+Computational social science sits between disciplines, which means it is rarely
+anyone's home department. A student in sociology who wants to learn network analysis,
+or one in computer engineering who wants to ask a substantive social question, often
+has nowhere obvious to go. The society exists to be that place: a standing group where
+methods are taught horizontally, between peers, rather than only vertically through
+coursework.
+
+## How sessions work
+
+We meet weekly during term. A typical session has one of three shapes:
+
+**Hands-on workshop.** A member walks the group through a method with real data —
+fitting an ERGM, scraping a corpus, building a model in NetLogo. Everyone codes along.
+
+**Paper discussion.** We read a recent methods or applications paper and work through
+what it actually did, including the parts the abstract glosses over.
+
+**Project session.** Members present work in progress and get feedback. Several of the
+projects on our [projects page](projects.qmd) started this way.
+
+## Who can join
+
+Anyone at Boğaziçi. There is no application and no prerequisite. Some members arrive
+already writing Python; others have never opened a terminal. Both are useful to have in
+the room, and the second group is why the workshops exist.
+
+## Language
+
+Sessions run in Turkish and English depending on who is present. Materials are usually
+in English, since that is where the literature is, but nobody is expected to present in
+a language they are uncomfortable with.
+
+:::

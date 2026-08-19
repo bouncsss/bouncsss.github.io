@@ -1,0 +1,26 @@
+---
+title: "Workshop: fitting your first ERGM"
+description: "A hands-on session on exponential random graph models in R, from data preparation through goodness-of-fit diagnostics."
+date: 2026-09-24
+categories: [workshop, network analysis]
+---
+
+Bir sonraki oturumumuzda üstel rastgele grafik modellerine (ERGM) giriş yapacağız.
+Kendi dizüstü bilgisayarınızı getirin; `statnet` paketini önceden kurmanız yeterli.
+
+## Neyi kapsayacağız
+
+- Ağ verisini R'a alma ve `network` nesnesine dönüştürme
+- Dyadic bağımsızlık varsayımının neden sorunlu olduğu
+- Modele terim ekleme: `edges`, `nodematch`, `gwesp`
+- Yakınsama ve uyum iyiliği tanılamaları
+
+## Hazırlık
+
+Kurulum için:
+
+```r
+install.packages(c("statnet", "ergm", "network"))
+```
+
+Oturum materyalleri burada paylaşılacak.

@@ -1,0 +1,447 @@
+/*-- scss:defaults --*/
+
+// ---- Palette ----------------------------------------------------------
+// Boğaziçi navy as the institutional ground; a Bosphorus teal as the single
+// accent. Deliberately not Koç's crimson.
+$navy:        #0B1F3A;
+$navy-deep:   #06162B;
+$teal:        #1B7FA8;
+$teal-light:  #4BA8CE;
+$paper:       #FBFAF8;
+$paper-alt:   #F1EFEA;
+$rule:        #D8DEE5;
+$muted:       #5C6B7A;
+
+$body-bg:     $paper;
+$body-color:  #16202C;
+$link-color:  $teal;
+$link-hover-color: darken($teal, 12%);
+
+$font-family-sans-serif: "Public Sans", -apple-system, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family:   "Newsreader", Georgia, serif;
+$font-family-monospace:  "IBM Plex Mono", ui-monospace, Menlo, monospace;
+
+$font-size-root: 17px;
+$line-height-base: 1.65;
+
+$navbar-bg: $navy;
+$navbar-fg: #ffffff;
+
+/*-- scss:rules --*/
+
+// ---- Navigation -------------------------------------------------------
+// A solid institutional band. Sticky so the identity travels with the reader.
+
+.navbar {
+  background: $navy !important;
+  border: none;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.08);
+  padding: 0.35rem 0;
+}
+
+.navbar .navbar-title {
+  font-family: $headings-font-family;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.navbar-nav .nav-link {
+  font-family: $headings-font-family;
+  font-weight: 600;
+  font-size: 0.83rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.82) !important;
+  padding: 0.75rem 0.95rem !important;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #fff !important;
+  border-bottom-color: $teal-light;
+}
+
+// ---- Hero -------------------------------------------------------------
+// The signature: a real network graph, not a stock photograph. Nodes and
+// edges are the society's own instrument.
+
+.hero {
+  position: relative;
+  background: $navy-deep;
+  overflow: hidden;
+  padding: 5.5rem 0 5rem;
+  width: 100vw;
+  left: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-bottom: 4rem;
+}
+
+.hero-net {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.85;
+}
+
+.hero-net .net-edges line {
+  stroke: rgba(120, 170, 200, 0.28);
+  stroke-width: 1;
+}
+
+.hero-net .net-nodes circle {
+  fill: rgba(150, 195, 220, 0.55);
+}
+
+.hero-net .net-nodes circle.hub {
+  fill: $teal-light;
+}
+
+.hero-inner {
+  position: relative;
+  z-index: 2;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.hero-eyebrow {
+  font-family: $font-family-monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: $teal-light;
+  margin-bottom: 1.1rem;
+}
+
+.hero-title {
+  font-family: $headings-font-family;
+  font-weight: 600;
+  font-size: clamp(2.2rem, 5vw, 3.9rem);
+  line-height: 1.08;
+  color: #fff;
+  max-width: 20ch;
+  margin: 0 0 1.5rem 0;
+}
+
+.hero-lede {
+  font-size: 1.12rem;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.86);
+  max-width: 54ch;
+  margin: 0;
+}
+
+// Inner pages get a slim band instead of the full hero.
+.page-band {
+  background: $navy;
+  padding: 3rem 0 2.6rem;
+  margin: 0 0 3.5rem 0;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-bottom: 3.5rem;
+}
+
+.page-band .band-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.page-band h1 {
+  font-family: $headings-font-family;
+  font-weight: 600;
+  font-size: clamp(1.9rem, 4vw, 2.9rem);
+  color: #fff;
+  margin: 0;
+}
+
+.page-band .band-eyebrow {
+  font-family: $font-family-monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: $teal-light;
+  margin-bottom: 0.7rem;
+}
+
+// ---- Content shell ----------------------------------------------------
+
+main.content {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 2rem 4rem;
+}
+
+.prose {
+  max-width: 68ch;
+}
+
+main.content h2 {
+  font-family: $headings-font-family;
+  font-weight: 600;
+  font-size: 1.7rem;
+  margin-top: 3.2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid $rule;
+}
+
+main.content h3 {
+  font-family: $headings-font-family;
+  font-weight: 600;
+  font-size: 1.22rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+// A mono eyebrow used above sections — labels the kind of content,
+// which is information, not ornament.
+.eyebrow {
+  font-family: $font-family-monospace;
+  font-size: 0.74rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: $teal;
+  margin-bottom: 0.6rem;
+}
+
+// ---- Method cards -----------------------------------------------------
+
+.methods {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0 1rem;
+}
+
+.method {
+  background: #fff;
+  border: 1px solid $rule;
+  border-top: 3px solid $teal;
+  padding: 1.4rem 1.4rem 1.5rem;
+}
+
+.method h3 {
+  margin-top: 0;
+  margin-bottom: 0.45rem;
+  font-size: 1.1rem;
+}
+
+.method p {
+  margin: 0;
+  font-size: 0.94rem;
+  color: $muted;
+  line-height: 1.55;
+}
+
+// ---- People -----------------------------------------------------------
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 2rem 1.75rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.person .person-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  background: $paper-alt;
+  border: 1px solid $rule;
+  margin-bottom: 0.7rem;
+}
+
+.person .person-name {
+  font-family: $headings-font-family;
+  font-weight: 600;
+  font-size: 1.02rem;
+  margin: 0 0 0.15rem;
+}
+
+.person .person-role {
+  font-family: $font-family-monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $muted;
+  margin: 0 0 0.35rem;
+}
+
+.person p.person-note {
+  font-size: 0.9rem;
+  color: $muted;
+  margin: 0;
+  line-height: 1.5;
+}
+
+// Faculty lead gets a wider treatment
+.lead-card {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 2rem;
+  align-items: start;
+  background: #fff;
+  border: 1px solid $rule;
+  border-left: 3px solid $teal;
+  padding: 1.75rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.lead-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  background: $paper-alt;
+}
+
+// ---- Project entries --------------------------------------------------
+
+.project {
+  border-top: 1px solid $rule;
+  padding: 1.7rem 0;
+  display: grid;
+  grid-template-columns: 8.5rem 1fr;
+  gap: 2rem;
+}
+
+.project .project-tag {
+  font-family: $font-family-monospace;
+  font-size: 0.73rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $teal;
+  padding-top: 0.3rem;
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.project p {
+  margin-bottom: 0.6rem;
+}
+
+// ---- Listing (events / news) -----------------------------------------
+
+.quarto-listing {
+  margin-top: 1rem;
+}
+
+.quarto-listing .listing-title {
+  font-family: $headings-font-family;
+  font-weight: 600;
+}
+
+.quarto-listing .listing-date {
+  font-family: $font-family-monospace;
+  font-size: 0.82rem;
+  color: $muted;
+}
+
+// ---- Resource list ----------------------------------------------------
+
+.resource-group {
+  margin-bottom: 2.5rem;
+}
+
+.resource-group ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.resource-group li {
+  border-bottom: 1px solid $rule;
+  padding: 0.7rem 0;
+}
+
+.resource-group li .res-note {
+  color: $muted;
+  font-size: 0.92rem;
+}
+
+// ---- Footer -----------------------------------------------------------
+
+.footer,
+.nav-footer {
+  background: $navy;
+  color: rgba(255,255,255,0.7);
+  border: none;
+  font-size: 0.85rem;
+  padding: 2rem 0;
+  margin-top: 4rem;
+}
+
+.nav-footer a { color: $teal-light; }
+
+// ---- Responsive -------------------------------------------------------
+
+@media (max-width: 800px) {
+  .hero { padding: 3.5rem 0 3rem; }
+  .hero-inner, .page-band .band-inner, main.content { padding-left: 1.25rem; padding-right: 1.25rem; }
+  .lead-card { grid-template-columns: 1fr; gap: 1.25rem; }
+  .lead-card img { max-width: 190px; }
+  .project { grid-template-columns: 1fr; gap: 0.5rem; }
+  .project .project-tag { padding-top: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+
+
+
+
+/* navbar ile lacivert bant arasındaki boşluğu kaldır */
+main.content { padding-top: 0 !important; }
+#quarto-content > * { padding-top: 0 !important; }
+.page-columns { row-gap: 0 !important; }
+
+
+/* navbar ile lacivert bandın arasındaki beyaz şeridi kapat */
+.page-band,
+.hero {
+  margin-top: -1px;
+}
+
+header#quarto-header,
+.headroom,
+#quarto-header + * {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+#quarto-content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+body > * { margin: 0 !important; }
+.quarto-container,
+.page-full,
+main.content { margin-top: 0 !important; padding-top: 0 !important; }
+.navbar { margin-bottom: 0 !important; }
+
+/* grid satır aralığını kapat */
+#quarto-content.page-columns,
+#quarto-content > .page-columns,
+.page-columns {
+  row-gap: 0 !important;
+}
+
+#quarto-content {
+  gap: 0 !important;
+}
+
+.page-band, .hero { margin-top: -1.5rem; }
+

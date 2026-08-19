@@ -1,0 +1,198 @@
+[
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Reading, tools, and data"
+  },
+  {
+    "objectID": "resources.html#where-to-begin",
+    "href": "resources.html#where-to-begin",
+    "title": "Resources",
+    "section": "Where to begin",
+    "text": "Where to begin\n\nBit by Bit — Matthew Salganik — the standard introduction to social research in the digital age, free to read online.\nSummer Institutes in Computational Social Science — materials and recorded lectures from SICSS, openly available.\nText as Data — Grimmer, Roberts & Stewart — the reference for text-as-data methods in the social sciences."
+  },
+  {
+    "objectID": "resources.html#methods-and-tutorials",
+    "href": "resources.html#methods-and-tutorials",
+    "title": "Resources",
+    "section": "Methods and tutorials",
+    "text": "Methods and tutorials\n\nstatnet — R packages for network analysis and ERGMs, with tutorials.\nNetLogo — agent-based modeling environment; the models library alone is worth reading.\nThe Effect — Nick Huntington-Klein — causal inference, free online.\nHugging Face — pretrained models, including Turkish-language ones such as BERTurk."
+  },
+  {
+    "objectID": "resources.html#data-sources",
+    "href": "resources.html#data-sources",
+    "title": "Resources",
+    "section": "Data sources",
+    "text": "Data sources\n\nV-Dem — comparative measures of democracy, 1789 to present.\nCorrelates of War — interstate conflict, alliances, trade, and national capabilities.\nTÜİK — Turkish Statistical Institute; national statistics and microdata.\nİBB Açık Veri Portalı — Istanbul Metropolitan Municipality open data."
+  },
+  {
+    "objectID": "resources.html#around-the-university",
+    "href": "resources.html#around-the-university",
+    "title": "Resources",
+    "section": "Around the university",
+    "text": "Around the university\n\nDepartment of Political Science and International Relations\nBoğaziçi University Library — database access, including subscription journals and statistical software licences."
+  },
+  {
+    "objectID": "events/2026-09-workshop-ergm.html",
+    "href": "events/2026-09-workshop-ergm.html",
+    "title": "Workshop: fitting your first ERGM",
+    "section": "",
+    "text": "Bir sonraki oturumumuzda üstel rastgele grafik modellerine (ERGM) giriş yapacağız. Kendi dizüstü bilgisayarınızı getirin; statnet paketini önceden kurmanız yeterli."
+  },
+  {
+    "objectID": "events/2026-09-workshop-ergm.html#neyi-kapsayacağız",
+    "href": "events/2026-09-workshop-ergm.html#neyi-kapsayacağız",
+    "title": "Workshop: fitting your first ERGM",
+    "section": "Neyi kapsayacağız",
+    "text": "Neyi kapsayacağız\n\nAğ verisini R’a alma ve network nesnesine dönüştürme\nDyadic bağımsızlık varsayımının neden sorunlu olduğu\nModele terim ekleme: edges, nodematch, gwesp\nYakınsama ve uyum iyiliği tanılamaları"
+  },
+  {
+    "objectID": "events/2026-09-workshop-ergm.html#hazırlık",
+    "href": "events/2026-09-workshop-ergm.html#hazırlık",
+    "title": "Workshop: fitting your first ERGM",
+    "section": "Hazırlık",
+    "text": "Hazırlık\nKurulum için:\ninstall.packages(c(\"statnet\", \"ergm\", \"network\"))\nOturum materyalleri burada paylaşılacak."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About the society",
+    "section": "",
+    "text": "Boğaziçi University Computational Social Science Society"
+  },
+  {
+    "objectID": "about.html#what-the-society-is-for",
+    "href": "about.html#what-the-society-is-for",
+    "title": "About the society",
+    "section": "What the society is for",
+    "text": "What the society is for\nComputational social science sits between disciplines, which means it is rarely anyone’s home department. A student in sociology who wants to learn network analysis, or one in computer engineering who wants to ask a substantive social question, often has nowhere obvious to go. The society exists to be that place: a standing group where methods are taught horizontally, between peers, rather than only vertically through coursework."
+  },
+  {
+    "objectID": "about.html#how-sessions-work",
+    "href": "about.html#how-sessions-work",
+    "title": "About the society",
+    "section": "How sessions work",
+    "text": "How sessions work\nWe meet weekly during term. A typical session has one of three shapes:\nHands-on workshop. A member walks the group through a method with real data — fitting an ERGM, scraping a corpus, building a model in NetLogo. Everyone codes along.\nPaper discussion. We read a recent methods or applications paper and work through what it actually did, including the parts the abstract glosses over.\nProject session. Members present work in progress and get feedback. Several of the projects on our projects page started this way."
+  },
+  {
+    "objectID": "about.html#who-can-join",
+    "href": "about.html#who-can-join",
+    "title": "About the society",
+    "section": "Who can join",
+    "text": "Who can join\nAnyone at Boğaziçi. There is no application and no prerequisite. Some members arrive already writing Python; others have never opened a terminal. Both are useful to have in the room, and the second group is why the workshops exist."
+  },
+  {
+    "objectID": "about.html#language",
+    "href": "about.html#language",
+    "title": "About the society",
+    "section": "Language",
+    "text": "Language\nSessions run in Turkish and English depending on who is present. Materials are usually in English, since that is where the literature is, but nobody is expected to present in a language they are uncomfortable with."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Research, models, and simulations"
+  },
+  {
+    "objectID": "projects.html#proposing-a-project",
+    "href": "projects.html#proposing-a-project",
+    "title": "Projects",
+    "section": "Proposing a project",
+    "text": "Proposing a project\nBring it to a session. Projects that work well here tend to have a clear substantive question and a dataset that already exists — the constraint is usually analysis time, not ambition."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Get in touch"
+  },
+  {
+    "objectID": "contact.html#joining-the-mailing-list",
+    "href": "contact.html#joining-the-mailing-list",
+    "title": "Contact",
+    "section": "Joining the mailing list",
+    "text": "Joining the mailing list\nWrite to us and we will add you. The list carries meeting times, readings, and announcements — a few messages a month, nothing else.\nbouncss at example dot com"
+  },
+  {
+    "objectID": "contact.html#where-we-meet",
+    "href": "contact.html#where-we-meet",
+    "title": "Contact",
+    "section": "Where we meet",
+    "text": "Where we meet\nDepartment of Political Science and International Relations\nBoğaziçi University\nBebek, 34342 Istanbul\nMeeting room and time are announced on the mailing list each term."
+  },
+  {
+    "objectID": "contact.html#elsewhere",
+    "href": "contact.html#elsewhere",
+    "title": "Contact",
+    "section": "Elsewhere",
+    "text": "Elsewhere\n\nGitHub — code from workshops and projects\nBluesky\nLinkedIn"
+  },
+  {
+    "objectID": "contact.html#for-faculty-and-visitors",
+    "href": "contact.html#for-faculty-and-visitors",
+    "title": "Contact",
+    "section": "For faculty and visitors",
+    "text": "For faculty and visitors\nIf you would like to give a talk or run a session with us, write to Assoc. Prof. Başak Taraktaş or to the address above."
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
+    "section": "",
+    "text": "Workshops, seminars, and announcements\n\n\nEvents\n\n\n\n\nWeekly sessions run during term at the Department of Political Science and International Relations. Announcements and past session materials are listed below.\n\n\n\n\n\n\n\n\n\n\nReading group: generative agent-based models\n\n\nDiscussing recent work that replaces fixed decision rules in ABMs with language model agents, and what it costs in interpretability.\n\n\n\n\n\n8 October 2026\n\n\n\n\n\n\n\nWorkshop: fitting your first ERGM\n\n\nA hands-on session on exponential random graph models in R, from data preparation through goodness-of-fit diagnostics.\n\n\n\n\n\n24 September 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Computational Social Science Society",
+    "section": "",
+    "text": "Boğaziçi University\n\n\n\n\nWe are students and researchers at Boğaziçi University who study social questions with computational methods. We meet weekly for hands-on sessions, and we build things together — models, datasets, and small simulations anyone can run."
+  },
+  {
+    "objectID": "index.html#social-questions-computational-instruments",
+    "href": "index.html#social-questions-computational-instruments",
+    "title": "Computational Social Science Society",
+    "section": "Social questions, computational instruments",
+    "text": "Social questions, computational instruments\nThe society brings together people from political science, sociology, economics, history, and computer engineering. Our shared premise is that many social questions turn on processes we cannot observe directly — how opinions spread, how ties form, how what people say diverges from what they believe. Computational methods let us state those processes precisely and test them against data.\nSessions are informal and hands-on. Someone brings a problem or a paper, we work through the code together, and everyone leaves with something they can run. No prior programming experience is required to attend — several of our current members started with none."
+  },
+  {
+    "objectID": "index.html#come-to-a-session",
+    "href": "index.html#come-to-a-session",
+    "title": "Computational Social Science Society",
+    "section": "Come to a session",
+    "text": "Come to a session\nWe meet weekly during term at the Department of Political Science and International Relations. Meetings are open — no membership form, no prerequisite. Bring a laptop if you have one.\nWrite to us at the address on the contact page and we will add you to the mailing list for meeting times and readings."
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "Members and affiliates"
+  },
+  {
+    "objectID": "people.html#coordinators",
+    "href": "people.html#coordinators",
+    "title": "People",
+    "section": "Coordinators",
+    "text": "Coordinators\n\n\n ::: {.person-name} Mükerrem Said Özdemir\n\n\nMA, Political Science\n\n\nPreference falsification and authoritarian regimes; network analysis and Turkish NLP.\n\n\n\n ::: {.person-name} İsim Soyisim\n\n\nRol / Bölüm\n\n\nKısa bir cümle: ilgi alanları ve yöntemler.\n\n:::\n:::\n\nMembers"
+  },
+  {
+    "objectID": "people.html#members",
+    "href": "people.html#members",
+    "title": "People",
+    "section": "Members",
+    "text": "Members\n\n\n ::: {.person-name} İsim Soyisim\n\n\nBölüm, sınıf\n\n\n\n ::: {.person-name} İsim Soyisim\n\n\nBölüm, sınıf\n\n:::\n\n ::: {.person-name} İsim Soyisim\n\n\nBölüm, sınıf\n\n:::\n\n ::: {.person-name} İsim Soyisim\n\n\nBölüm, sınıf\n\n:::\n:::\n\nInterested in being listed here? Come to a session — see contact."
+  },
+  {
+    "objectID": "events/2026-10-reading-generative-agents.html",
+    "href": "events/2026-10-reading-generative-agents.html",
+    "title": "Reading group: generative agent-based models",
+    "section": "",
+    "text": "Bu oturumda ajan tabanlı modellerde sabit karar kurallarının yerine dil modeli ajanlarının kullanıldığı yeni literatürü tartışacağız.\nTartışmak istediğimiz soru: bu yaklaşım gerçekten daha “gerçekçi” ajanlar mı üretiyor, yoksa yorumlanabilirliği kaybederek görünürde bir zenginlik mi kazandırıyor?\nOkuma listesi oturumdan bir hafta önce mailing list üzerinden paylaşılacak."
+  }
+]

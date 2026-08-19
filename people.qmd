@@ -1,0 +1,126 @@
+---
+title: ""
+pagetitle: "People — BOUN CSS"
+---
+
+::: {.page-band}
+::: {.band-inner}
+::: {.band-eyebrow}
+Members and affiliates
+:::
+# People
+:::
+:::
+
+::: {.eyebrow}
+Faculty lead
+:::
+
+::: {.lead-card}
+![](images/people/taraktas.jpg)
+
+::: {}
+### Assoc. Prof. Başak Taraktaş
+::: {.person-role}
+Department of Political Science and International Relations
+:::
+
+Başak Taraktaş works on collective action and opinion dynamics, mostly in the context
+of regimes and contentious politics, combining computational methods with historical
+and comparative analysis. She received her PhD from the University of Pennsylvania and
+was previously a postdoctoral fellow at Northwestern's Buffett Institute for Global
+Affairs.
+
+[Personal site](https://basaktaraktas.com)
+:::
+:::
+
+::: {.eyebrow}
+Coordinators
+:::
+
+## Coordinators
+
+::: {.people-grid}
+
+::: {.person}
+![](images/people/placeholder.jpg){.person-photo}
+::: {.person-name}
+Mükerrem Said Özdemir
+:::
+::: {.person-role}
+MA, Political Science
+:::
+::: {.person-note}
+Preference falsification and authoritarian regimes; network analysis and Turkish NLP.
+:::
+:::
+
+::: {.person}
+![](images/people/placeholder.jpg){.person-photo}
+::: {.person-name}
+İsim Soyisim
+:::
+::: {.person-role}
+Rol / Bölüm
+:::
+::: {.person-note}
+Kısa bir cümle: ilgi alanları ve yöntemler.
+:::
+:::
+
+:::
+
+::: {.eyebrow}
+Members
+:::
+
+## Members
+
+::: {.people-grid}
+
+::: {.person}
+![](images/people/placeholder.jpg){.person-photo}
+::: {.person-name}
+İsim Soyisim
+:::
+::: {.person-role}
+Bölüm, sınıf
+:::
+:::
+
+::: {.person}
+![](images/people/placeholder.jpg){.person-photo}
+::: {.person-name}
+İsim Soyisim
+:::
+::: {.person-role}
+Bölüm, sınıf
+:::
+:::
+
+::: {.person}
+![](images/people/placeholder.jpg){.person-photo}
+::: {.person-name}
+İsim Soyisim
+:::
+::: {.person-role}
+Bölüm, sınıf
+:::
+:::
+
+::: {.person}
+![](images/people/placeholder.jpg){.person-photo}
+::: {.person-name}
+İsim Soyisim
+:::
+::: {.person-role}
+Bölüm, sınıf
+:::
+:::
+
+:::
+
+::: {.prose}
+Interested in being listed here? Come to a session — see [contact](contact.qmd).
+:::

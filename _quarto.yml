@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Boğaziçi Computational Social Science Society"
+  description: "A student and faculty community at Boğaziçi University working with agent-based modeling, network analysis, machine learning, and text mining."
+  # Alan adını aldığınızda burayı güncelleyin:
+  site-url: "https://ORGANIZATION.github.io"
+
+  navbar:
+    title: "BOUN CSSS"
+    search: false
+    left:
+      - text: "About"
+        href: about.qmd
+      - text: "People"
+        href: people.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Events"
+        href: events.qmd
+      - text: "Resources"
+        href: resources.qmd
+      - text: "Contact"
+        href: contact.qmd
+
+  page-footer:
+    left: "Boğaziçi University Computational Social Science Society"
+    right: "Department of Political Science and International Relations · Bebek, Istanbul"
+
+format:
+  html:
+    theme:
+      - litera
+      - custom.scss
+    toc: false
+    page-layout: full
+    include-in-header: head.html
+    link-external-newwindow: true
+    email-obfuscation: javascript

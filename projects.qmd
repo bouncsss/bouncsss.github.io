@@ -1,0 +1,80 @@
+---
+title: ""
+pagetitle: "Projects — BOUN CSS"
+---
+
+::: {.page-band}
+::: {.band-inner}
+::: {.band-eyebrow}
+Research, models, and simulations
+:::
+# Projects
+:::
+:::
+
+::: {.prose}
+Work by members of the society, from course projects that grew into something larger to
+small simulations built to make a concept easier to see. Where code is public, the
+repository is linked.
+:::
+
+::: {.project}
+::: {.project-tag}
+Simulation
+:::
+::: {}
+### Threshold cascade
+An interactive model of Granovetter-style threshold dynamics: each node acts once a
+sufficient share of its neighbours has. Adjust the average threshold and the network
+density to see why some cascades run away and others stall after two steps.
+
+[Open the simulation](#) · [Source](#)
+:::
+:::
+
+::: {.project}
+::: {.project-tag}
+Network analysis
+:::
+::: {}
+### Alliance formation in the Correlates of War network
+Exponential random graph models of interstate alliance ties, testing whether alliances
+follow from dyadic attributes or from endogenous network processes such as triadic
+closure.
+
+[Repository](#)
+:::
+:::
+
+::: {.project}
+::: {.project-tag}
+Applied statistics
+:::
+::: {}
+### Neighbourhood determinants of park satisfaction in Istanbul
+Cross-sectional analysis across Istanbul neighbourhoods, combining municipal survey data
+with census indicators and review-derived perception scores.
+
+[Repository](#)
+:::
+:::
+
+::: {.project}
+::: {.project-tag}
+Text as data
+:::
+::: {}
+### Proje başlığı
+Bir veya iki cümlelik açıklama: hangi soru soruluyor, hangi veri ve yöntem kullanılıyor.
+
+[Repository](#)
+:::
+:::
+
+::: {.prose}
+## Proposing a project
+
+Bring it to a session. Projects that work well here tend to have a clear substantive
+question and a dataset that already exists — the constraint is usually analysis time,
+not ambition.
+:::

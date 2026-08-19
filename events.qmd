@@ -1,0 +1,25 @@
+---
+title: ""
+pagetitle: "Events — BOUN CSS"
+listing:
+  contents: events
+  type: default
+  sort: "date desc"
+  fields: [date, title, description]
+  date-format: "D MMMM YYYY"
+  categories: true
+---
+
+::: {.page-band}
+::: {.band-inner}
+::: {.band-eyebrow}
+Workshops, seminars, and announcements
+:::
+# Events
+:::
+:::
+
+::: {.prose}
+Weekly sessions run during term at the Department of Political Science and International
+Relations. Announcements and past session materials are listed below.
+:::
